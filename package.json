@@ -1,0 +1,19 @@
+{
+  "name": "loancalculator",
+  "version": "1.0.0",
+  "description": "simple project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocker-bell/loancalculator.git"
+  },
+  "author": "rocker-bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocker-bell/loancalculator/issues"
+  },
+  "homepage": "https://github.com/rocker-bell/loancalculator#readme"
+}
