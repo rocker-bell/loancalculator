@@ -2,7 +2,7 @@
   "name": "loancalculator",
   "version": "1.0.0",
   "description": "simple project",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "test"
   },

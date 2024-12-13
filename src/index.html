@@ -6,6 +6,65 @@
     <title>Loan calculator </title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <table>
+            <tr>
+                <th>Enter loan Data:</th>
+                <td></td>
+                <th>Loan Balance, Cumulative Equity, And Interest Payments</th>
+            </tr>
+
+            <tr>
+                <td>Amount of the Loan ($):</td>
+                <td><input type="text" placeholder="10000" id="amout"></td>
+                <td><canvas id="graph" width="400" height="250"></canvas></td>
+            </tr>
+
+            <tr>
+                <td>Annual interest (%):</td>
+                <td><input type="text"  placeholder="5" id="annual"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Repayment period (years):</td>
+                <td><input type="text" placeholder="30" id="years"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>ZipCode (to find lenders):</td>
+                <td><input type="number"  id="ZipCode"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Approximate Payments :</th>
+                <td><button onclick="calculate()">calculate</button></td>
+            </tr>
+            <tr>
+                <td>Mounthly Payments:</td>
+                <td><input type="number" readonly id="Payment"></td>
+
+            </tr>
+            <tr>
+                <td>Total Payment:</td>
+                <td><input type="number" readonly id="Total"></td>
+            </tr>
+            <tr>
+                <td>Total Interest:</td>
+                <td><input type="number" readonly id="Interest"></td>
+            </tr>
+        </table>
+        <div class="description">
+            <div class="sponsors">
+                <h4>sponsors</h4>
+                <div class="sponsor-links">
+                    <p>Apply for your loan with one of these sponsors</p>
+                    <span class="links">
+                        <a href="#">Bank of Javascript</a>
+                        <a href="#">HTML CREDIT UNION</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
