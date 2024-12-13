@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Loan calculator </title>
 </head>
 <body>
@@ -17,23 +18,23 @@
             <tr>
                 <td>Amount of the Loan ($):</td>
                 <td><input type="text" placeholder="10000" id="amout"></td>
-                <td><canvas id="graph" width="400" height="250"></canvas></td>
+                <td rowspan="8"><canvas id="graph" width="400" height="250"></canvas></td>
             </tr>
 
             <tr>
                 <td>Annual interest (%):</td>
                 <td><input type="text"  placeholder="5" id="annual"></td>
-                <td></td>
+                
             </tr>
             <tr>
                 <td>Repayment period (years):</td>
                 <td><input type="text" placeholder="30" id="years"></td>
-                <td></td>
+                
             </tr>
             <tr>
                 <td>ZipCode (to find lenders):</td>
                 <td><input type="number"  id="ZipCode"></td>
-                <td></td>
+                
             </tr>
             <tr>
                 <th>Approximate Payments :</th>
@@ -67,4 +68,5 @@
         </div>
     </div>
 </body>
+<script src="/src/main.js"></script>
 </html>
